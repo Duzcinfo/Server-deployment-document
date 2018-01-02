@@ -1,3 +1,2 @@
-# First Chapter
 
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
+该部署文档一切是测试环境编写的。测试环境的架构是lnmp（linux+nginx+mysql+php）。
