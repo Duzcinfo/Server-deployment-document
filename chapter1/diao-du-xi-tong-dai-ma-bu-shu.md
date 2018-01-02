@@ -78,4 +78,7 @@ Which environment do you want the application to be initialized in?
 ```
   以后代码有更新，有优化，执行`git pull `命令，输入相关密码即可。
   
+注：[git使用文档](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
+
+  
   
