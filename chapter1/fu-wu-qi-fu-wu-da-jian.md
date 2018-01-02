@@ -98,7 +98,7 @@ make && make install
   </tr>
   <tr>
     <td>php主配置文件</td>
-    <td>php-fpm.conf php.ini\(装扩展\)</td>
+    <td>php-fpm.conf php.ini(装扩展)</td>
     <td>/usr/local/php/etc</td>
   </tr>
 </table>
