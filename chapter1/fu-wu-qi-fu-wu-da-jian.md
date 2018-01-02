@@ -12,7 +12,7 @@ LNMP代表的就是：Linux系统下Nginx+MySQL+PHP这种网站服务器架构�
 | 源码目录 | 源码安装包 | /usr/local/src/nginx-1.7.10.tar.gz |
 | 环境变量 | -- | /etc/profile.d/nginx.sh |
 | 启动nginx文件 | nginx启动服务 | /etc/init.d/nginx |
-| 启动方式 | service nginx {start\|stop\|reload\|restart\|configtest} | --- |
+| 启动方式 | service nginx {start\|stop\|reload\|restart\|configtest} | 无 |
 | nginx主配置文件 | nginx.conf | /usr/local/nginx/conf |
 | nginx网站配置目录 | 配置各个网站的nginx配置 | /usr/local/nginx/vhost |
 
@@ -38,7 +38,7 @@ make && make install
 | 源码目录 | 源码安装包 | /usr/local/src/php-5.6.17.tar.gz |
 | 环境变量 | -- | /etc/profile.d/php.sh |
 | 启动nginx文件 | nginx启动服务 | /etc/init.d/php-fpm |
-| 启动方式 | service php-fpm  {start\|stop\|force-quit\|restart\|reload\|status} | ---- |
+| 启动方式 | service php-fpm  {start\|stop\|force-quit\|restart\|reload\|status} | 无 |
 | php主配置文件 | php-fpm.conf  php.ini\(装扩展\) | /usr/local/php/etc |
 
 ### 源文件位置
@@ -54,15 +54,15 @@ make && make install
  make && make install
 ```
 
-\#\#\# 启动方式
+### 启动方式
 
 启动命令：
 
 
 
-\`service php-fpm  {start\|stop\|force-quit\|restart\|reload\|status}\`
+`service php-fpm  {start\|stop\|force-quit\|restart\|reload\|status}\`
 
-\#\# mysql
+## mysql
 
 
 
