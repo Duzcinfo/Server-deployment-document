@@ -16,18 +16,19 @@ Linux登陆方式通过远程工具登陆，支持的远程工具有：
   在windows 下执行安装（在其他客户端安装请下载相对应的版本）安装过程及激活过程略。
 
 * 登录
-
-![](/assets/xshell.jpg) \#\#  securecrt 登录   
-
+![](/assets/xshell.jpg)
 
 
-\* 下载地址：\`https://www.vandyke.com/download/securecrt/download.html\`
+##  securecrt 登录   
 
-\* 安装过程略
 
-\* 登录
+
+* 下载地址：\`https://www.vandyke.com/download/securecrt/download.html\`
+
+* 安装过程略
+
+* 登录
 
 ![](/assets/scrt.jpg)
-
-\#\# putty （略）
+## putty （略）
 
