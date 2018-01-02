@@ -1,5 +1,6 @@
 代码的部署这里采用的是git仓库的管理方式。由于git分布式部署的原理，是的代码的安全行性大大提高。
-- 克隆项目  
+- 克隆项目 
+> 这是测试服务器得网站得根目录`mnt`,正式环境要依具体情况而定。 
 
 ```shell
 [root@******]# git clone https://2763393126@code.aliyun.com/phpgrp/jiaoyun-diaodu.git
