@@ -6,15 +6,48 @@ LNMP代表的就是：Linux系统下Nginx+MySQL+PHP这种网站服务器架构�
 
 ### nginx详情
 
-| 名称 | 内容 | 路径 |
-| --- | --- | --- |
-| nignx | 版本：nginx/1.7.10 | /usr/local/nginx/ |
-| 源码目录 | 源码安装包 | /usr/local/src/nginx-1.7.10.tar.gz |
-| 环境变量 | -- | /etc/profile.d/nginx.sh |
-| 启动nginx文件 | nginx启动服务 | /etc/init.d/nginx |
-| 启动方式 | service nginx {start\|stop\|reload\|restart\|configtest} | 无 |
-| nginx主配置文件 | nginx.conf | /usr/local/nginx/conf |
-| nginx网站配置目录 | 配置各个网站的nginx配置 | /usr/local/nginx/vhost |
+<table>
+  <tr>
+    <th>名称</th>
+    <th>内容</th>
+    <th>路径</th>
+  </tr>
+  <tr>
+    <td>nignx</td>
+    <td>版本：nginx/1.7.10</td>
+    <td>/usr/local/nginx/</td>
+  </tr>
+  <tr>
+    <td>源码目录</td>
+    <td>源码安装包</td>
+    <td>/usr/local/src/nginx-1.7.10.tar.gz</td>
+  </tr>
+  <tr>
+    <td>环境变量</td>
+    <td>--</td>
+    <td>/etc/profile.d/nginx.sh</td>
+  </tr>
+  <tr>
+    <td>启动nginx文件</td>
+    <td>nginx启动服务</td>
+    <td>/etc/init.d/nginx</td>
+  </tr>
+  <tr>
+    <td>启动方式</td>
+    <td>service nginx {start|stop|reload|restart|configtest}</td>
+    <td>---</td>
+  </tr>
+  <tr>
+    <td>nginx主配置文件</td>
+    <td>nginx.conf</td>
+    <td>/usr/local/nginx/conf</td>
+  </tr>
+  <tr>
+    <td>nginx网站配置目录</td>
+    <td>配置各个网站的nginx配置</td>
+    <td>/usr/local/nginx/vhost</td>
+  </tr>
+</table>
 
 ### 安装步骤
 
@@ -32,14 +65,45 @@ make && make install
 
 ## php
 
-| 名称 | 内容 | 路径 |
-| --- | --- | --- |
-| php | 版本：PHP 5.6.17 | /usr/local/php/ |
-| 源码目录 | 源码安装包 | /usr/local/src/php-5.6.17.tar.gz |
-| 环境变量 | -- | /etc/profile.d/php.sh |
-| 启动nginx文件 | nginx启动服务 | /etc/init.d/php-fpm |
-| 启动方式 | service php-fpm  {start\|stop\|force-quit\|restart\|reload\|status} | 无 |
-| php主配置文件 | php-fpm.conf  php.ini\(装扩展\) | /usr/local/php/etc |
+<table>
+  <tr>
+    <th>名称</th>
+    <th>内容</th>
+    <th>路径</th>
+  </tr>
+  <tr>
+    <td>php</td>
+    <td>版本：PHP 5.6.17</td>
+    <td>/usr/local/php/</td>
+  </tr>
+  <tr>
+    <td>源码目录</td>
+    <td>源码安装包</td>
+    <td>/usr/local/src/php-5.6.17.tar.gz</td>
+  </tr>
+  <tr>
+    <td>环境变量</td>
+    <td>--</td>
+    <td>/etc/profile.d/php.sh</td>
+  </tr>
+  <tr>
+    <td>启动nginx文件</td>
+    <td>nginx启动服务</td>
+    <td>/etc/init.d/php-fpm</td>
+  </tr>
+  <tr>
+    <td>启动方式</td>
+    <td>service php-fpm {start|stop|force-quit|restart|reload|status}</td>
+    <td>---</td>
+  </tr>
+  <tr>
+    <td>php主配置文件</td>
+    <td>php-fpm.conf php.ini\(装扩展\)</td>
+    <td>/usr/local/php/etc</td>
+  </tr>
+</table>
+
+
 
 ### 源文件位置
 
